@@ -419,6 +419,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #404bbf;
 }
 
 .customers-link:is(:hover, :focus) {
@@ -426,7 +427,7 @@ img {
 }
 
 .customers-link:is(:hover, :focus) > .customers-icon {
-  fill: #404bbf;
+  fill: currentColor;
 }
 
 .customers-icon {
