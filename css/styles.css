@@ -151,7 +151,7 @@ img {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -184,7 +184,7 @@ img {
 
 .btn-order:hover,
 .btn-order:focus {
-  background-color: #404bbf;
+  background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -241,6 +241,7 @@ img {
 .advantage-text {
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .advantage-section {
@@ -265,7 +266,8 @@ img {
 
 .section-icon-advantage {
   width: 264px;
-  height: 112px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   background: #f4f4fd;
   border-radius: 4px;
   align-items: center;
@@ -325,8 +327,7 @@ img {
   height: 100%;
 }
 
-.gallery-card-link:is(:hover, :focus) {
-  border: 0.5px solid #f4f4fd;
+.card-content:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -364,7 +365,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
 }
 
 .command-soc-item {
@@ -458,9 +458,10 @@ footer {
 
 .footer-suptitle {
   font-weight: 500;
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-soc-container {
@@ -468,7 +469,7 @@ footer {
 }
 
 .footer-soc-section {
-  padding-left: 120px;
+  margin-left: 120px;
   margin-top: 0;
 }
 
